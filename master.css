@@ -1,0 +1,90 @@
+/* immagine di background fissa e responsive */
+body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(background.jpg) no-repeat center top;
+  position: fixed;
+  z-index: -1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* contenitore */
+.container{
+    width: 1100px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    /* background-color: none; */
+}
+
+/* logo */
+.logo_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+/* titolo */
+.title{
+  color: #00ea38;
+  font-family: "Verdana", Verdana, sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* bottoni */
+.buttons{
+  text-align: center;
+  background-color: #00ea38;
+  font-family: "Verdana", Verdana, sans-serif;
+  padding: 10px;
+}
+
+/* testo su monopattini */
+.monopattino{
+  color: white;
+  font-family: "Verdana", Verdana, sans-serif;
+}
+
+/* h2 monopattini */
+.obj{
+  display: inline-block;
+  margin: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.linea1{
+  background: #ffbc40;
+  border: 0;
+  height: 50px;
+  width: 500px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+
+.linea2{
+  background: limegreen;
+  border: 0;
+  height: 50px;
+  width: 800px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+
+.linea3{
+  background: firebrick;
+  border: 0;
+  height: 50px;
+  width: 200px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
